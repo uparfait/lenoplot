@@ -72,7 +72,7 @@ plt.plot(data, layout);
 ```
 Output:
 
-<img src="https://lenoplot-images.onrender.com/lenoplot_examples_scatter.png" alt="Alt text" width="100%" height="500">
+<img src="https://lenoplot-images.onrender.com/lenoplot_examples_scatter.png" alt="Loading" width="100%" height="500">
 
 # EXAMPLE 2:
 
@@ -108,7 +108,7 @@ plt.plot(data, layout);
 
 Output:
 
-<img src="https://lenoplot-images.onrender.com/lenoplot_examples_line.png" alt="Alt text" width="100%" height="500">
+<img src="https://lenoplot-images.onrender.com/lenoplot_examples_line.png" alt="Loading" width="100%" height="500">
 
 # EXAMPLE 3:
 
@@ -145,7 +145,7 @@ plt.plot(data, layout);
 
 Output:
 
-<img src="https://lenoplot-images.onrender.com/lenoplot_examples_linear.png" alt="Alt text" width="100%" height="500">
+<img src="https://lenoplot-images.onrender.com/lenoplot_examples_linear.png" alt="Loading" width="100%" height="500">
 
 # EXAMPLE 4:
 
@@ -193,7 +193,7 @@ plt.plot(data, layout);
 
 Output:
 
-<img src="https://lenoplot-images.onrender.com/lenoplot_examples_multlines.png" alt="Alt text" width="100%" height="500">
+<img src="https://lenoplot-images.onrender.com/lenoplot_examples_multlines.png" alt="Loading" width="100%" height="500">
 
 # EXAMPLE 5:
 
@@ -220,7 +220,7 @@ plt.plot(data, layout);
 
 Output:
 
-<img src="https://lenoplot-images.onrender.com/lenoplot_examples_bar.png" alt="Alt text" width="100%" height="500">
+<img src="https://lenoplot-images.onrender.com/lenoplot_examples_bar.png" alt="Loading" width="100%" height="500">
 
 # EXAMPLE 6:
 
@@ -248,7 +248,7 @@ plt.plot(data, layout);
 ```
 Output:
 
-<img src="https://lenoplot-images.onrender.com/lenoplot_examples_barhorizontal.png" alt="Alt text" width="100%" height="500">
+<img src="https://lenoplot-images.onrender.com/lenoplot_examples_barhorizontal.png" alt="Loading" width="100%" height="500">
 
 # EXAMPLE 7:
 
@@ -269,7 +269,7 @@ plt.plot(data, layout);
 ```
 Output:
 
-<img src="https://lenoplot-images.onrender.com/lenoplot_examples_pie.png" alt="Alt text" width="100%" height="500">
+<img src="https://lenoplot-images.onrender.com/lenoplot_examples_pie.png" alt="Loading" width="100%" height="500">
 
 
 # EXAMPLE 8:
@@ -299,7 +299,7 @@ plt.plot(data, layout);
 ```
 Output:
 
-<img src="https://lenoplot-images.onrender.com/lenoplot_examples_sine.png" alt="Alt text" width="100%" height="500">
+<img src="https://lenoplot-images.onrender.com/lenoplot_examples_sine.png" alt="Loading" width="100%" height="500">
 
 ```Now```
 
