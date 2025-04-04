@@ -1,0 +1,36 @@
+{
+  "name": "lenoplot",
+  "version": "1.0.0",
+  "description": "Lenoplot is a Node.js charting library built on top of Plotly.js. It is designed to help Node.js developers and machine learning rookies to easily develop and visualize their work without switching between the Node.js environment",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo 1"
+  },
+  "keywords": [
+    "charting",
+    "Node.js",
+    "Plotly",
+    "machine learning",
+    "visualization",
+    "lenoplot"
+  ],
+  "author": "Uwayo Parfait",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "electron": "^35.1.4",
+    "lenoplot": "file:",
+    "ws": "^8.18.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uparfait/Lenoplot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uparfait/Lenoplot/issues"
+  },
+  "homepage": "https://github.com/uparfait/Lenoplot",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

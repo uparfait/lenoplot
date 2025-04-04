@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+:root {
+    --border: hsl(0, 3%, 77%);
+    --bg: hsl(0, 100%, 100%);
+}
+
+body {
+    position: relative;
+    display: flex;
+    background-color: #00000000;
+    width: 100vw;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    cursor: none;
+}
+
+
+
+.main-app {
+    display: flex;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    flex-direction: column;
+    position: relative;
+    background-color: var(--bg);
+    border-radius: 12px;
+    transition: all .3s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    cursor: pointer;
+    overflow: hidden;
+    border: 1px solid var(--border);
+    padding-bottom: 5px;
+}
+
+#away-anime {
+    transform: rotateX(90deg);
+    overflow: hidden;
+}
+
+#filp {
+    animation-name: example;
+    animation-iteration-count: infinite;
+    animation-duration: .2s;
+}
+
+@keyframes example {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    50% {
+        transform: rotateZ(1deg);
+    }
+
+    100% {
+        transform: rotateZ(-1deg);
+    }
+}
+
+.main-app>div {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.main-app .top-header {
+    background-color: var(--bg);
+    border-top-left-radius: 12px;
+    height: 30px;
+    border-top-right-radius: 12px;
+    overflow: hidden;
+    -webkit-app-region: drag;
+    user-select: none;
+}
+
+.main-app .top-header>div {
+    position: absolute;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 3px;
+    flex-direction: row;
+    -webkit-app-region: no-drag;
+}
+
+.main-app .top-header .img-logo-title>div {
+    margin: 0px 3px;
+}
+
+.text-title {
+    font-size: 14px;
+    margin-left: 5px;
+    color: #5f6078;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.awayed {
+    transform: rotateY(90deg);
+    overflow: hidden;
+}
+
+.main-content {
+    position: relative;
+    height: calc(100% - 30px);
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content .bordered-space .svg-container {
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.main-app .right-close {
+    position: absolute;
+    right: 0px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    transform: translate(3.5px, 0px)
+}
+
+
+.main-app .right-close .icon {
+    border-radius: 0px;
+    color: #5f6078;
+    width: 50px;
+    transition: all .1s ease-in-out;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0px;
+    overflow: visible;
+}
+
+.main-app .right-close .icon:hover {
+    background-color: #9d9ebe59;
+}
+
+.main-app .right-close #minApp i,
+.main-app .right-close #closeApp i {
+    font-size: 20px;
+}
+
+.main-app .right-close #closeApp:hover {
+    color: #FFFFFF;
+    background-color: rgba(223, 16, 16, 0.922);
+}
+
+.main-app .right-close #maxApp i {
+    font-size: 13px;
+}
+
+.bordered-space {
+    position: relative;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    background-color: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.main-app #darwin > div {
+    display: none;
+}
+
+.main-app #waiting > div {
+    display: none;
+}
+
+.main-app #darwin .darwin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    -webkit-app-region: drag;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.main-app #darwin .darwin > div {
+    -webkit-app-region: no-drag;
+}
+
+.main-app #darwin .darwin .leftheaders {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    left: 0px;
+    font-size: 14px;
+}
+
+.main-app #win32 .darwin {
+    display: none;
+}
+.main-app  .bottom-fixed-counter {
+    position: absolute;
+    bottom: 0px;
+    width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8px;
+    height: 12px;
+    left: 20px;
+}
+/* .main-app  .bottom-fixed-counter .dot{
+    transform: translateY(-1px);
+} */

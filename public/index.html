@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lenoplot</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./boxicons.min.css" />
+    <script>
+      window.addEventListener("unhandledrejection", () =>
+        console.log("hi tiy")
+      );
+      window.addEventListener("error", () => console.log("hi tiy"));
+    </script>
+    <script src="./plotly.js"></script>
+  </head>
+  <body>
+    <div class="main-app">
+
+      <div class="top-header" id="waiting">
+
+        <div class="img-logo-title">
+          <div class="logo" id="face-top">📈</div>
+          <div class="text-title">Lenoplot</div>
+        </div>
+
+        <div class="darwin">
+          <div class="leftheaders">
+            <div class="icos" id="closeAppdar">🔴</div>
+            <div class="icos" id="minAppdar">🟡</div>
+            <div class="icos" id="maxAppdar">🟢</div>
+          </div>
+          <div class="text-title">Lenoplot</div>
+        </div>
+
+        <div class="right-close">
+          <div class="btn icon" id="minApp">
+            <i class="bx bx-minus"></i>
+          </div>
+          <div class="btn icon" id="maxApp">
+            <i class="bx bx-window" id="m"></i>
+          </div>
+          <div class="btn icon" id="closeApp">
+            <i class="bx bx-x"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-content" id="main-grath-space">
+        <div class="bordered-space" id="bordered-space">
+          <!-- 
+             Main Graphs Goes Here!
+           -->
+        </div>
+      </div>
+      <div class="bottom-fixed-counter">
+       <span class="dot">🟢</span>
+       <span class="num-counts"></span>
+      </div>
+    </div>
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
